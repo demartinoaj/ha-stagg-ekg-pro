@@ -1,0 +1,11 @@
+{
+  "codeowners": ["@demartinoaj"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/demartinoaj/ha-stagg-ekg-pro",
+  "domain": "stagg_ekg_pro",
+  "iot_class": "local_polling",
+  "name": "Stagg EKG Pro",
+  "requirements": [],
+  "version": "1.0.0"
+}
