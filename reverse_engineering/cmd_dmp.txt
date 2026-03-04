@@ -1,0 +1,82 @@
+CLI: cmd len 4: 'help' 
+CLI: reset : reset 
+CLI: state : print state 
+CLI: statesave : save state after given time (ms) 
+CLI: prtsaved : print saved state 
+CLI: setstate : set state 
+CLI: ss : set state 
+CLI: shot : print screenshot 
+CLI: refresh : refresh gui 
+CLI: sleepms : sleep given time ms 
+CLI: setsetting : setsetting name integer_value 
+CLI: setsettingd : setsetting name double_value 
+CLI: setsettings : setsetting name string_value 
+CLI: setsettingb : setsetting name hexstring 
+CLI: clrsettings : delete all settings 
+CLI: prtsettings : print settings 
+CLI: prts : print settings 
+CLI: prtclock : print clock 
+CLI: setclock : setclock hour min [sec] 
+CLI: incclock : increment clock minutes 
+CLI: incticks : increase tick count 
+CLI: setanalog : set clock mode = analog 
+CLI: setdigital : set clock mode = digital 
+CLI: setaltitudem : set altitude settings 
+CLI: setaltitudef : set altitude settings 
+CLI: setunitsc : set units = c 
+CLI: setunitsf : set units = f 
+CLI: fwinfo : print firmware info 
+CLI: setpart : set boot parition name 
+CLI: eraseotherpart : erase non-current OTA part 
+CLI: heapprt : print heap info 
+CLI: lvglinfo : print lvgl mem use 
+CLI: lvglpon : enable lvgl alloc print 
+CLI: lvglpoff : disable lvgl alloc print 
+CLI: logprt : print small log 
+CLI: gpioset : gpioset * 1 or gpioset * 0 
+CLI: heaton : set GPIO HEAT High 
+CLI: heatoff : set GPIO HEAT Low 
+CLI: warmon : set GPIO WARM High 
+CLI: warmoff : set GPIO WARM Low 
+CLI: warmduty : enable WARM pwm using duty percent 
+CLI: rmtflt : set filter for rmt 
+CLI: pwmprt : print pwm regs 
+CLI: temp : print tempr min/max/av 
+CLI: tstprd : set tempr stat/notif period ms 
+CLI: buz : buz freq_hz duty_13_bit dur_ms or buz sos - run buzzer 
+CLI: wifiprt : print WiFi config 
+CLI: wifierase : erase wifi sap config 
+CLI: wifisappw : enter/save wifi sap password 
+CLI: wifistapw : enter/save wifi sta password 
+CLI: wifistassid : enter/save wifi sta ssid [pw] 
+CLI: wifioff : turn wifi off 
+CLI: wifion : turn wifi on 
+CLI: wifisap : start wifi softap mode 
+CLI: wifista : start wifi station mode 
+CLI: provreset : reset WiFi config (forget AP) 
+CLI: mdns : start mdns 
+CLI: blesec : start ble security 
+CLI: bleen : enable/start BLE 
+CLI: bledis : disable/stop BLE 
+CLI: iot : test iot 
+CLI: httpdwn : httpdwn url : download file via HTTP and drop 
+CLI: httpfw : httpfw : download/install FW via HTTP 
+CLI: httptest : httptest : verify that HTTPS server follows rules 
+CLI: 1 : short press button 1 
+CLI: 1d : push button 1 
+CLI: 1u : release button 1 
+CLI: 2 : short press button 2 
+CLI: 2d : push button 2 
+CLI: 2u : release button 2 
+CLI: q : rotate dial left 
+CLI: w : rotate dial right 
+CLI: left : rotate dial left 
+CLI: right : rotate dial right 
+CLI: bc : print button 
+Cli: ck count 
+CLI: read_adc : read adc voltage 
+CLI: temp_offset : Read temperature offset 
+CLI: adcsamples : number of adc samples 
+CLI: set_period : set pwm period in seconds 
+CLI: max_duty : set triac max duty 
+CLI: min_duty : set triac min duty
